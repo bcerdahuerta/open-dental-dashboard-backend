@@ -1,0 +1,26 @@
+# Credenciales de desarrollo
+.env
+
+# Entornos virtuales
+env
+.env/
+secrets/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Sistema operativo y de IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Docker volumes
+postgres-data/
+
+# Local database
+*.db
+
+# Google API credentials
+*.pickle
+token_sheet.pickle
